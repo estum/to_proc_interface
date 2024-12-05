@@ -1,0 +1,5 @@
+module ToProcInterface
+  VERSION: String
+
+  def to_proc: -> Proc
+end
