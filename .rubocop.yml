@@ -1,0 +1,19 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.7
+  SuggestExtensions: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+
+Style/AccessModifierDeclarations:
+  EnforcedStyle: inline
+
+Naming/MethodParameterName:
+  MinNameLength: 1
+
+Style/SymbolArray:
+  Enabled: false
